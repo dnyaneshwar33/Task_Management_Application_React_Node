@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Task, TaskFormData } from './types';
 
-const API_URL = 'http://localhost:8000/api'; // Replace with your actual backend URL
+const API_URL = 'https://task-management-application-react-node.onrender.com'; // Replace with your actual backend URL
 
 export const api = {
   getTasks: async () => {
