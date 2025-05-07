@@ -47,7 +47,7 @@ class TaskController {
     if (description) task.description = description;
     if (completed !== undefined) task.completed = completed;
 
-    res.status(200).json({ message: 'Tasks updated Successfully', task });
+    res.status(200).json({ message: 'Task updated Successfully', task });
   };
 
   deleteTask = (req: Request, res: Response): any => {
