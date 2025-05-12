@@ -3,13 +3,13 @@ export interface Task {
   title: string;
   description: string;
   completed: boolean;
-  priority: 'low' | 'medium' | 'high';
+  priority: 'low' | 'medium' | 'high' | 'IMP';
   dueDate: string;
 }
 
 export interface TaskFormData {
   title: string;
   description: string;
-  priority: 'low' | 'medium' | 'high';
+  priority: 'low' | 'medium' | 'high' | 'IMP';
   dueDate: string;
 }
